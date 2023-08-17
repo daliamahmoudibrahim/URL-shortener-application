@@ -48,6 +48,6 @@ app.post('/', (req, res) => {
  
 })
 
-app.listen(process.env.Port || 5000, '127.0.0.1', () => {
+app.listen(process.env.PORT|| 8080, '0.0.0.0', () => {
   console.log('successful')
 })
