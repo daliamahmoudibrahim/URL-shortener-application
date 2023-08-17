@@ -5,12 +5,12 @@
   "description": "url ShortEnter App using Nodejs(express)",
   "main": "app.js",
   "scripts": {
-    "predeploy": "npm run build",
+    "redeploy":"npm run build",
     "deploy": "gh-pages -d build",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "dalia",
+  "author": "Dalia",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"
