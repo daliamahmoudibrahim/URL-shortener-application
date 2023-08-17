@@ -5,8 +5,7 @@
   "description": "url ShortEnter App using Nodejs(express)",
   "main": "app.js",
   "scripts": {
-    "redeploy":"npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d dist",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
