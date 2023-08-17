@@ -24,7 +24,7 @@ app.post('/', (req, res) => {
   console.log(req.body)
   const newId = URLData[URLData.length - 1].id + 1
   const link = new URL(req.body.link)
-  const shortURL = link.hostname
+  const shortURL = link.hostname.slice(4,-4)
   const newURL ={
     id:newId,
     link:req.body.link,
